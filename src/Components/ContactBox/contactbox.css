@@ -1,0 +1,51 @@
+.app__contactbox-box {
+    background-color: #191919;
+    height: 3.4rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.app__contactbox-box:hover {
+    background-color: #fada9d;
+
+    height: 3.5rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+
+    .app__contactbox-title {
+        font-size: 1.2rem;
+        color: #191919;
+        transition: 0.5s ease-in-out;
+    }
+
+    .app__contactbox-img {
+        color: #191919;
+        transition: 0.5s ease-in-out;
+        width: 2.1rem;
+        height: 1.2rem;
+    }
+}
+
+.app__contactbox-img {
+    display: flex;
+    width: 2rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__contactbox-title {
+    font-size: 1.1rem;
+    color: white;
+}

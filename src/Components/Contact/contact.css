@@ -1,0 +1,97 @@
+.socials_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    color: #fada9d;
+}
+
+.links_social {
+    position: relative;
+    height: 1rem;
+    width: 1rem;
+}
+
+
+
+
+
+
+.app__contact-footer {
+    width: 99vw;
+    background-color: #252527;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    z-index: -10;
+}
+
+
+.contactMe_mainbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contactMe_info>* {
+    text-align: center;
+    /* margin-bottom: 1rem; */
+}
+
+.contactMe_info {
+    margin-bottom: 2rem;
+}
+
+.app__contact-input {
+    background-color: #202021;
+    color: white;
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.238rem;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: #414141 1px solid;
+    font-size: 0.9rem;
+    resize: vertical;
+    font-family: 'VT323';
+    letter-spacing: normal;
+    font-size: larger;
+
+}
+
+.app__contact-input:focus {
+    border-bottom: #414141 1px solid;
+    outline: none;
+}
+
+label {
+    color: #9695f8;
+}
+
+.info_one {
+    font-size: 1rem;
+    color: #9695f8;
+}
+
+.info_two {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.info_three {
+    font-size: 1.25rem;
+    color: #FADA9D;
+}
+
+.app_contact-contactbox_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 3rem;
+    flex-wrap: wrap;
+
+}

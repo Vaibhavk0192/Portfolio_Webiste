@@ -1,0 +1,121 @@
+.app__navbar-topbox {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252527;
+    height: 1.5rem;
+}
+
+.app__navbar-topbox p {
+    color: #FADA9D;
+}
+
+.app__navabr-rest {
+    display: flex;
+}
+
+.app__navbar-count {
+    position: fixed;
+    top: 34px;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #19191A;
+    display: block;
+    flex-direction: column;
+    width: 20px;
+    flex-wrap: wrap;
+    color: #59595C;
+    padding: 1px;
+    justify-content: center;
+    z-index: -1;
+}
+
+.app__navbar-count p {
+    display: flex;
+    margin-left: 2px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.app__navbar-main {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 2rem
+}
+
+.app__navbar-headings_box {
+    display: flex;
+
+}
+
+.app__navbar-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__navbar-name_heading {
+    margin-top: 0.8rem;
+    font-size: 1.8rem;
+    color: #FBF1D3;
+}
+
+.app__navbar-name_type {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #9A99FF;
+}
+
+.typed-cursor {
+    font-size: 1.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: #9A99FF;
+}
+
+.app__navbar-headings_box {
+    display: flex;
+    /* align-content: space-evenly; */
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.app__navbar-headings_box li {
+    display: flex;
+    font-size: 1.5rem;
+    color: #FBF1D3;
+    margin-right: 2rem;
+}
+
+
+
+.active-class {
+    color: #9A99FF;
+}
+
+.non-active-class {
+    color: #d3b987;
+    cursor: pointer;;
+}
+
+.app__navbar-name_subeading {
+    font-weight: 400;
+    letter-spacing: -0.36px;
+    line-height: 26px;
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    color: #9a99ff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}

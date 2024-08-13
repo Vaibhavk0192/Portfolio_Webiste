@@ -1,0 +1,96 @@
+.app__project-box {
+    /* margin-top: 3rem; */
+    padding: 1.7rem;
+    display: flex;
+    width: 23rem;
+    flex-direction: column;
+    height: 29rem;
+    align-self: center;
+    transition: ease-in-out;
+
+}
+
+.app__project-title {
+    display: flex;
+    margin-top: 1rem;
+    color: white;
+    font-size: 2.3rem;
+
+}
+
+.app__project-image img {
+    border-radius: 8px;
+    align-self: center;
+    width: 22rem;
+    height: 13rem;
+}
+
+.app__project-image {
+    object-fit: cover;
+    display: flex;
+
+}
+
+.app__project-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.app__project-description p {
+    color: #FADA9D;
+    text-align: justify;
+    overflow: auto;
+    text-decoration: none;
+    font-size: larger
+}
+
+.app__project-tag {
+    background-color: #191919;
+    margin: 0.2rem 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 2rem;
+    /* border: #FADA9D solid 1px; */
+    border-radius: 8px;
+}
+
+.app__project-tag:hover {
+    margin: 0.2rem 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.2rem;
+    height: 2.3rem;
+    border: #FADA9D solid 1px;
+    background-color: #FADA9D;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+    color: #000;
+
+}
+
+.app__project-tag:hover p {
+    color: #000;
+
+}
+
+
+.app__project-tagText:hover {
+    color: #000;
+}
+
+.app__project-tagText {
+    color: rgb(197, 181, 122);
+    font-size: large;
+}
+
+
+.app__project-tagBox {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}

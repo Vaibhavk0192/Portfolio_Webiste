@@ -1,0 +1,14 @@
+.app__socialmedia-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    color: #fefefe;
+    letter-spacing: 0.15rem;
+    font-family: 'VT323';
+    flex-direction: column;
+    background-color: #191919;
+    align-content: center;
+    border-radius: 10px;
+}

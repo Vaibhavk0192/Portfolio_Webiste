@@ -1,13 +1,59 @@
+
+
 body {
+  background-color: #202021;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'VT323', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.app__box {
+  margin-left: 22px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.app__box {
+  margin-left: 20px;
+  /* display: flex; */
+}
+
+.app__heading {
+  color: #ffffff;
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 1.5vw;
+  text-align: center;
+}
+
+.app__subheading {
+    color: #fada9d;
+    font-size: 2.15vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    text-align: center;
+    width: 53vw;
+}
+
+.app__logo {
+  color: #9a99ff;
+  font-size: 2.5vw;
+  font-weight: 400;
+  height: 24px;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
 }
