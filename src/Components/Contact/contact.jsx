@@ -31,7 +31,7 @@ export const Contact = () => {
       </div>
 
       <div className="app__contact-footer scale-up-center">
-        <div class="socials_icons">
+        <div className="socials_icons">
         © 2024 Vaibhav Kapoor. All Rights Reserved.
         </div>
       </div>
